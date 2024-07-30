@@ -15,5 +15,16 @@ namespace Karti.Durak
         /// Игроки.
         /// </summary>
         public List<Player> Players { get; set; }
+
+        /// <summary>
+        /// Колода.
+        /// </summary>
+        public Deck Deck { get; set; }
+
+        public void InitCardDeck()
+        {
+            Deck = new Deck();
+            
+        }
     }
 }
