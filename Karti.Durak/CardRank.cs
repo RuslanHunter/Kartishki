@@ -11,18 +11,22 @@ namespace Karti.Durak
     /// </summary>
     public class CardRank
     {
+        public CardRank(int value)
+        {
+            
+        }
         /// <summary>
         /// Значение старшинства. Чем больше тем лучше
         /// </summary>
-        public int value { get; set; }
+        public int value { get; }
 
         /// <summary>
         /// Наименование карты.
         /// </summary>
-        public required string Name { get; set; }
+        public required string Name { get; }
         /// <summary>
         /// Сокращенное наименование.
         /// </summary>
-        public required char ShortName { get; set; }
+        public required char ShortName { get; }
     }
 }

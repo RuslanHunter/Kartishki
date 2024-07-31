@@ -14,6 +14,7 @@ namespace Karti.Durak
         public Holder()
         {
             Ranks = new List<CardRank>();
+            Ranks.Add(new CardRank());
             for (var i = 6; i <= 10; i++)
             {
                 for (var i2 = 6; i2 <= 10; i2++)
