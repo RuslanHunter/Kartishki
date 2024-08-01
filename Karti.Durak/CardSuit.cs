@@ -6,8 +6,24 @@ using System.Threading.Tasks;
 
 namespace Karti.Durak
 {
+    /// <summary>
+    /// Масть.
+    /// </summary>
     public class CardSuit
     {
+        /// <summary>
+        /// Масть.
+        /// </summary>
+        /// <param name="value"><see cref="Value"/></param>
+        /// <param name="name"><see cref="Name"/></param>
+        /// <param name="iconChar"><see cref="IconChar"/></param>
+        public CardSuit(int value, string name, char iconChar)
+        {
+            Value = value;
+            Name = name;
+            IconChar = iconChar;
+            
+        }
         /// <summary>
         /// Значение.
         /// </summary>
@@ -20,6 +36,6 @@ namespace Karti.Durak
         /// <summary>
         /// Сокращенное наименование (♥/♦/♣/♠).
         /// </summary>
-        public required char ShortName { get; set; }
+        public required char IconChar { get; set; }
     }
 }
