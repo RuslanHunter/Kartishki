@@ -27,15 +27,15 @@ namespace Karti.Durak
         /// <summary>
         /// Значение.
         /// </summary>
-        public int Value { get; set; }
+        public int Value { get; }
 
         /// <summary>
         /// Наименование карты.
         /// </summary>
-        public required string Name { get; set; }
+        public string Name { get; }
         /// <summary>
         /// Сокращенное наименование (♥/♦/♣/♠).
         /// </summary>
-        public required char IconChar { get; set; }
+        public char IconChar { get; }
     }
 }

@@ -14,17 +14,20 @@ namespace Karti.Durak
         /// <summary>
         /// Игроки.
         /// </summary>
-        public List<Player> Players { get; set; }
+        public List<Player>? Players { get; set; }
 
         /// <summary>
         /// Колода.
         /// </summary>
-        public Deck Deck { get; set; }
+        public Deck? Deck { get; private set; }
 
         public void InitCardDeck()
         {
             Deck = new Deck();
-            
+            Deck.Cards = CardsHolder.GetCards()
+                .Select(x => new { Order = Globals.Random.Next(), Card = x })
+                .OrderBy(x => x.Order)
+                .Select(x => x.Card).ToList();
         }
     }
 }
