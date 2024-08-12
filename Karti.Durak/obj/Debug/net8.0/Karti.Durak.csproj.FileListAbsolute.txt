@@ -1,0 +1,12 @@
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\bin\Debug\net8.0\Karti.Durak.deps.json
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\bin\Debug\net8.0\Karti.Durak.dll
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\bin\Debug\net8.0\Karti.Durak.pdb
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\Karti.Durak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\Karti.Durak.AssemblyInfoInputs.cache
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\Karti.Durak.AssemblyInfo.cs
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\Karti.Durak.csproj.CoreCompileInputs.cache
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\Karti.Durak.sourcelink.json
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\Karti.Durak.dll
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\refint\Karti.Durak.dll
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\Karti.Durak.pdb
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\ref\Karti.Durak.dll

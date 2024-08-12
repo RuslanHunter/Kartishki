@@ -37,9 +37,9 @@ namespace Karti.Durak
             var suits = new List<CardSuit>()
             {
                 new CardSuit(0, "Clubs", '♣'),
-                new CardSuit(0, "Hearts", '♥'),
-                new CardSuit(0, "Diamonds", '♦'),
-                new CardSuit(0, "Spades", '♠')
+                new CardSuit(1, "Hearts", '♥'),
+                new CardSuit(2, "Diamonds", '♦'),
+                new CardSuit(3, "Spades", '♠')
             };
 
             var cards = new List<Card>();
