@@ -28,3 +28,4 @@ C:\Users\Жинкин Лев\source\repos\Karti\Karti\obj\Debug\net8.0\refint\Ka
 C:\Users\Жинкин Лев\source\repos\Karti\Karti\obj\Debug\net8.0\Karti.pdb
 C:\Users\Жинкин Лев\source\repos\Karti\Karti\obj\Debug\net8.0\Karti.genruntimeconfig.cache
 C:\Users\Жинкин Лев\source\repos\Karti\Karti\obj\Debug\net8.0\ref\Karti.dll
+C:\Users\Жинкин Лев\source\repos\Karti\Karti\obj\Debug\net8.0\Karti.sourcelink.json

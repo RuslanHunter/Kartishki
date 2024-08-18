@@ -16,8 +16,37 @@ namespace Karti.Durak
         /// </summary>
         public Deck()
         {
-            Cards = new List<Card>();
+            _cards = new List<Card>();
         }
-        public List<Card> Cards { get; set; }
+
+        /// <summary>
+        /// Карты.
+        /// </summary>
+        private List<Card> _cards { get; set; }
+
+        /// <summary>
+        /// Перетусовать колоду.
+        /// </summary>
+        /// <remarks>
+        /// Создать колоду с картами расположенными в случайном порядке.
+        /// </remarks>
+        public void Shuffle()
+        {
+            _cards = CardsHolder.GetCards()
+                .Select(x => new { Order = Globals.Random.Next(), Card = x })
+                .OrderBy(x => x.Order)
+                .Select(x => x.Card).ToList();
+        }
+
+        /// <summary>
+        /// Достать карту из колоды.
+        /// </summary>
+        /// <returns></returns>
+        public Card PullCard()
+        {
+            var card = _cards.Last();
+            _cards.Remove(card);
+            return card;
+        }
     }
 }
