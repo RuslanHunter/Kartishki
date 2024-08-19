@@ -24,6 +24,12 @@ namespace Karti.Durak
         /// </summary>
         private List<Card> _cards { get; set; }
 
+
+        /// <summary>
+        /// Количество карт в колоде.
+        /// </summary>
+        public int CardsCount => _cards.Count;
+
         /// <summary>
         /// Перетусовать колоду.
         /// </summary>
@@ -44,7 +50,11 @@ namespace Karti.Durak
         /// <returns></returns>
         public Card PullCard()
         {
-            var card = _cards.Last();
+            var card = _cards.LastOrDefault();
+            if (card == null)
+            {
+                throw new Exception("deck empty");
+            }
             _cards.Remove(card);
             return card;
         }
