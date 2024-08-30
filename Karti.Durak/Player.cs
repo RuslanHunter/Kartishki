@@ -50,5 +50,27 @@
         {
             _cards.Add(card);
         }
+
+
+        /// <summary>
+        /// Отчистить руку от карт.
+        /// </summary>
+        public void Clear()
+        { 
+            _cards = new List<Card>();
+        }
+
+        /// <summary>
+        /// Получить карту с минимальным значение козыря
+        /// </summary>
+        /// <param name="suit"></param>
+        /// <returns></returns>
+        public Card? GetMinSuitCard(CardSuit suit)
+        {
+            return Cards
+               .Where(x => x.Suit.Value == suit.Value)
+               .OrderBy(x => x.Rank.Value)
+               .FirstOrDefault();
+        }
     }
 }

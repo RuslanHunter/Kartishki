@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Karti.Durak.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+854d0a89dd8ff7c3761e16272d6a1b271a7d1040")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3a5da120aba22dcfec53449bfb5193005471103")]
 [assembly: System.Reflection.AssemblyProductAttribute("Karti.Durak.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Karti.Durak.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

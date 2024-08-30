@@ -19,6 +19,7 @@ namespace Karti.Durak
         public Game()
         {
             _players = new List<Player>();
+            Deck = new Deck();
         }
 
         /// <summary>
@@ -29,7 +30,32 @@ namespace Karti.Durak
         /// <summary>
         /// Колода.
         /// </summary>
-        public Deck? Deck { get; private set; }
+        public Deck Deck { get; private set; }
+
+        /// <summary>
+        /// Индекс игрока, который сейчас ходит.
+        /// </summary>
+        private int? _activePlayerIndex;
+
+        /// <summary>
+        /// Индекс игрока, который сейчас ходит.
+        /// </summary>
+        public Player? ActivePlayer
+        {
+            get
+            {
+               if (_activePlayerIndex == null)
+                {
+                    return null;
+                }
+                else
+                {
+                    return (Player?)_players[_activePlayerIndex.Value];
+                }
+            }
+        }
+        
+    
 
         /// <summary>
         /// Добавить игрока в игру.
@@ -46,7 +72,23 @@ namespace Karti.Durak
 
         public void InitCardDeck()
         {
-            Deck = new Deck();
+            _activePlayerIndex = null;
+            var isSuccess = false;
+            while (!isSuccess)
+            {
+                var result = GoGo();
+                //Козырей нету, перетусуем колоду.
+            }
+        }
+
+        private bool GoGo()
+        {
+            foreach (var player in _players)
+            {
+                player.Hand.Clear();
+            }
+
+            
             Deck.Shuffle();
 
             if (_players.Count < 2)
@@ -67,6 +109,27 @@ namespace Karti.Durak
                     player.Hand.TakeCard(card);
                 }
             }
+
+            var trumpSuitValue = Deck.TrumpCard.Suit.Value;
+            var minHandTrumpSuits = new Dictionary<int, Player>();
+            foreach (var player in _players)
+            {
+                var minTrumpRank = player.Hand.Cards
+                    .Where(x => x.Suit.Value == trumpSuitValue)
+                    .OrderBy(x => x.Rank.Value)
+                    .FirstOrDefault()?.Rank.Value;
+                if (minTrumpRank != null)
+                {
+                    minHandTrumpSuits.Add(minTrumpRank.Value, player);
+                }
+            }
+            var minTrumpSuitPlayer = minHandTrumpSuits.OrderBy(x => x.Key).FirstOrDefault().Value;
+            if (minTrumpSuitPlayer != null)
+            {
+                var ActivePlayerIndex = _players.IndexOf(minTrumpSuitPlayer);
+                return true;
+            }
+            return false;
         }
     }
 }

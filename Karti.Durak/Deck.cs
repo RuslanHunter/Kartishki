@@ -24,6 +24,10 @@ namespace Karti.Durak
         /// </summary>
         private List<Card> _cards { get; set; }
 
+        /// <summary>
+        /// Козырь.
+        /// </summary>
+        public Card TrumpCard { get; set; }
 
         /// <summary>
         /// Количество карт в колоде.
@@ -42,6 +46,7 @@ namespace Karti.Durak
                 .Select(x => new { Order = Globals.Random.Next(), Card = x })
                 .OrderBy(x => x.Order)
                 .Select(x => x.Card).ToList();
+            TrumpCard = _cards.First();
         }
 
         /// <summary>
