@@ -101,3 +101,11 @@ C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\obj\Debug\net8
 C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\obj\Debug\net8.0\Karti.Durak.Tests.pdb
 C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\obj\Debug\net8.0\Karti.Durak.Tests.genruntimeconfig.cache
 C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\obj\Debug\net8.0\ref\Karti.Durak.Tests.dll
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\bin\Debug\net8.0\Karti.Web.deps.json
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\bin\Debug\net8.0\Karti.Web.runtimeconfig.json
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\bin\Debug\net8.0\appsettings.json
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\bin\Debug\net8.0\Karti.Web.staticwebassets.runtime.json
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\bin\Debug\net8.0\Karti.Web.exe
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\bin\Debug\net8.0\Karti.Web.dll
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak.Tests\bin\Debug\net8.0\Karti.Web.pdb

@@ -9,6 +9,7 @@
       "Karti.Durak.Tests/1.0.0": {
         "dependencies": {
           "Karti.Durak": "1.0.0",
+          "Karti.Web": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "NUnit": "3.14.0",
           "NUnit.Analyzers": "3.9.0",
@@ -318,8 +319,16 @@
       "NUnit3TestAdapter/4.5.0": {},
       "System.Reflection.Metadata/1.6.0": {},
       "Karti.Durak/1.0.0": {
+        "dependencies": {
+          "Karti.Web": "1.0.0"
+        },
         "runtime": {
           "Karti.Durak.dll": {}
+        }
+      },
+      "Karti.Web/1.0.0": {
+        "runtime": {
+          "Karti.Web.dll": {}
         }
       }
     }
@@ -422,6 +431,11 @@
       "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
     },
     "Karti.Durak/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Karti.Web/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

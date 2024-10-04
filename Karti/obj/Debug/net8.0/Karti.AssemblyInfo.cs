@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Karti")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57f1005e4cb61971a47d99d21485597ec37293b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+580e78b31d1c2726e3ec5b01a2073db3ff6a8c8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Karti")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Karti")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

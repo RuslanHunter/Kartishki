@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Karti.Durak\Karti.Durak.csproj" />
+    <ProjectReference Include="..\Karti.Web\Karti.Web.csproj" />
   </ItemGroup>
 
   <ItemGroup>

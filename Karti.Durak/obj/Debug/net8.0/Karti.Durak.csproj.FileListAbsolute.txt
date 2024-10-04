@@ -10,3 +10,4 @@ C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\Kar
 C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\refint\Karti.Durak.dll
 C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\Karti.Durak.pdb
 C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\ref\Karti.Durak.dll
+C:\Users\Жинкин Лев\source\repos\Karti\Karti.Durak\obj\Debug\net8.0\Karti.Durak.csproj.AssemblyReference.cache

@@ -51,6 +51,22 @@
             _cards.Add(card);
         }
 
+        /// <summary>
+        /// Сходить
+        /// </summary>
+        /// <param name="card"></param>
+        public void PlayCard(Card card)
+        {
+            if (_cards.Contains(card))
+            {
+                _cards.Remove(card);
+            }
+            else 
+            {
+                throw new Exception("undefined card");
+            }
+        }
+
 
         /// <summary>
         /// Отчистить руку от карт.
